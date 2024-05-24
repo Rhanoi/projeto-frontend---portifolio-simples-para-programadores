@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 20px 10%;
+
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575455;
+
+}
+h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.preTitulo{
+    font-size: 16px;
+    font-weight: 700;
+    color: #F75C4E;
+}
+button{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 30px;
+    border:none;
+    background-color: #1F7CFF;
+    color: #FFF;
+    border-radius: 50px;
+
+}
+#menuHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+
+    a{
+        color: black;
+        text-decoration: none;
+
+    }
+    p{  
+        color: black;
+        font-size: 28px;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        font-size: 16px;
+        font-weight: 400;
+        gap: 30px;
+    }
+    
+}
+
+
+#apresentacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        a{
+            margin-top: 15px;
+        }
+    }
+}
+
+
+#clientes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0px;
+    align-items: center;
+    
+    /*Isso aqui é incrível! Dá para selecionar um item dentro do flexbox e aplicar um layout diretamente a ele*/
+    > *:nth-child(1) {
+        padding-right:15%; 
+    }
+
+    p{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: black;
+    }
+}
