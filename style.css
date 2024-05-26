@@ -3,8 +3,12 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 20px 10%;
+    
 
 }
 p{
@@ -55,8 +59,8 @@ a{
     a{
         color: black;
         text-decoration: none;
-
     }
+    
     p{  
         color: black;
         font-size: 28px;
@@ -116,7 +120,7 @@ a{
 
 #meusServicos{
     text-align: center;
-    padding: 75px 0px 70px;
+    padding: 75px 0px 30px;
     
     #tituloMS p{
         margin: 25px;
@@ -136,7 +140,7 @@ a{
 
 }
 #formulario{
-    padding: 70px 0px 70px;
+    padding: 140px 0px 70px;
     display: flex;
     flex-direction: row;
     gap: 70px;
