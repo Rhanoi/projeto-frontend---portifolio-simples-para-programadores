@@ -124,8 +124,8 @@ a{
     
     .card{
         margin: 61px 0px 50px;
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-auto-flow: column;
         justify-content: space-between;
 
         img{
